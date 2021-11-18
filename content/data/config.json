@@ -1,60 +1,72 @@
 {
     "type": "Config",
     "header": {
-        "headerVariant": "variant-d",
-        "primaryColors": "colors-b",
-        "secondaryColors": "colors-i",
-        "title": "Small Business",
+        "headerVariant": "variant-b",
+        "primaryColors": "colors-e",
+        "secondaryColors": "colors-a",
+        "backgroundWidth": "full",
+        "title": "Minimal",
         "isTitleVisible": false,
         "logo": {
             "type": "ImageBlock",
-            "url": "/images/logo.svg",
-            "altText": "Sakanaya logo"
+            "url": "/images/Logo.svg",
+            "altText": "Logo"
         },
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Home",
+                "label": "Pricing",
                 "url": "/",
                 "altText": ""
             },
             {
                 "type": "Link",
-                "label": "Our offers",
+                "label": "Documentation",
                 "url": "/blog",
                 "altText": ""
             },
             {
                 "type": "Link",
-                "label": "About us",
-                "url": "/about",
+                "label": "Themes",
+                "url": "/example",
                 "altText": ""
             }
         ],
         "secondaryLinks": [
             {
-                "type": "Button",
-                "label": "Join us",
+                "type": "Link",
+                "label": "Log in",
                 "url": "/",
-                "altText": "Join us",
+                "altText": "Sign in",
+                "style": "link"
+            },
+            {
+                "type": "Button",
+                "label": "Get Started",
+                "url": "/",
+                "altText": "Sign up",
                 "style": "secondary"
             }
         ],
         "styles": {
             "self": {
                 "width": "narrow",
-                "padding": ["pt-5", "pb-5", "pr-4", "pl-4"]
+                "padding": [
+                    "pt-5",
+                    "pb-5"
+                ]
             }
         }
     },
     "footer": {
-        "colors": "colors-f",
+        "colors": "colors-e",
+        "backgroundWidth": "full",
         "logo": {
             "type": "ImageBlock",
             "url": "/images/logo.svg",
-            "altText": "Sakanaya logo"
+            "altText": "Logo"
         },
-        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.  \nEaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "title": "Try Stackbit, build something",
         "contacts": {
             "phoneNumber": "850-123-5021",
             "phoneAltText": "Our phone",
@@ -116,7 +128,10 @@
         "styles": {
             "self": {
                 "width": "narrow",
-                "padding": ["pt-16", "pb-16", "pr-4", "pl-4"]
+                "padding": [
+                    "pt-36",
+                    "pb-16"
+                ]
             }
         }
     }

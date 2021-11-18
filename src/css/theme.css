@@ -1,13 +1,182 @@
 @import 'tailwindcss/components';
-/*
-@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+@import '../../public/fonts/fkdisplay-regular/stylesheet.css';
 
 @layer components {
-    h1,
-    h2,
-    h3,
-    h4 {
-        @apply font-festive;
+    .sb-component-button {
+        @apply border-4;
     }
 }
-*/
+
+.sb-markdown.text-center > p > img {
+    margin: 0 auto;
+  }
+
+.sb-markdown.text-right > p > img {
+    margin-left: auto;
+  }
+
+.sb-component-button {
+    border-radius: 4px;
+}
+
+/* The CTA links at the bottom of the hero cards (sections 2-4) */
+/* Would love if this color were a css var */
+.sb-component-hero-card-section .sb-component-link {
+    color: #ffde00;
+    font-size: 0.9rem; /* To match smaller font in design */
+}
+
+/* Make the spacing (line-height) between the subtitle lines at the top of the page a little narrower */
+.sb-hero-text-as-subtitle p {
+    margin: 0.75rem 0;
+}
+
+/* Reset margins inside markdown text, so we can control the spacing between paragraphs */
+/* Necessary because of the hero card "Ready for visual editing... Fully open source" which renders linebreaks as separate <p> elements */
+.sb-component-hero-card-section .sb-markdown p {
+    margin: 0;
+}
+
+.sb-component-cta-section.colors-g {
+    color: #f65458;
+}
+
+/* Set the background image of the logo field section */
+#logos-section {
+    background-image: url('/images/Background-illustration-1-93b9c03d.svg');
+    background-position: center;
+    background-size: cover;
+}
+
+/* Headline font size in "Select a theme" cta section */
+@media (min-width: 768px) {
+    .sb-component-cta-section h2 {
+        font-size: 3em;
+    }
+}
+
+/* Button color in "Select a theme" cta section */
+.sb-component-cta-section.colors-g .sb-component-button-primary {
+    background-color: #f65458;
+    border-color: #f65458;
+    margin-left: auto; /* Send it to the right side */
+}
+
+/* Set the font */
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: fkdisplay-regular,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+    -webkit-font-smoothing: antialiased;
+}
+
+.sb-markdown h4 {
+    font-size: 1em;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* Get the text size right inside the markdown of the TwoColumnBlurbSection */
+.sb-component-two-column-blurb-section .sb-markdown h3 {
+    font-size: 1.3em;
+}
+
+.sb-component-two-column-blurb-section .sb-markdown p {
+    font-size: 1rem;
+}
+
+/* Style the contact form without overriding FormBlock */
+form#contact-form {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    
+    /* Make it look like it's all one field */
+    background-color: black;
+}
+
+/* Way to target the flex div that holds the form fields */
+form#contact-form > * {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+    /* Get the form field and Sign Up button on the same line */
+    display: inline-block;
+    
+    /* Give it all the same background so it looks like it's one element */
+}
+
+/* Targeting the owner of the "email" input */
+form#contact-form > div.flex {
+    flex-grow: 1;
+}
+
+/* Reset the "Sign Up" button parent to 0 margins */
+form#contact-form>div.mt-4 {
+    margin: 0;
+}
+
+/* Style the "Sign Up" button */
+form#contact-form>div.mt-4>button {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    margin-right: 0.5rem;
+    background-color: rgba(76, 87, 197);
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+}
+
+div.sb-form-control {
+    width: 100%;
+    margin: 0;
+}
+
+input#email {
+    background-color: black;
+    height: 3.5rem;
+    border: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    @apply placeholder-white text-lg md:text-2xl
+}
+
+/* Make the contact section pop up over the header */
+div.sb-component-contact-section {
+    position: relative;
+    z-index: 100;
+}
+
+/* Make the footer padding big */
+footer.sb-component-footer {
+    padding-top: 6rem;
+}
+
+.big-responsive-title {
+    @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-relaxed
+}
+
+h2.big-responsive-title {
+    line-height: 130% !important; /* important because the xl font-size utility classes set line-height: 1 */
+}

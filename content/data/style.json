@@ -1,16 +1,16 @@
 {
     "type": "ThemeStyle",
     "h1": {
-        "weight": "bold",
+        "weight": "normal",
         "decoration": "none",
-        "case": "none",
-        "letterSpacing": "normal"
+        "case": "capitalize",
+        "letterSpacing": "0.05em"
     },
     "h2": {
-        "weight": "bold",
+        "weight": "normal",
         "decoration": "none",
         "case": "none",
-        "letterSpacing": "normal"
+        "letterSpacing": "0.025em"
     },
     "h3": {
         "weight": "bold",
@@ -20,30 +20,19 @@
     },
     "fontBody": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
     "fontHeadlines": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
-    "body": "#414c58",
-    "headlines": "#303941",
-    "primary": "#ff3064",
-    "secondary": "#ffffff",
-    "neutral": "#000000",
-    "complementary": "#e9f6ff",
-    "complementaryAlt": "#fffde2",
+    "body": "#ffffff",
+    "headlines": "#ffffff",
+    "primary": "#02001D",
+    "secondary": "#dfe3e7",
+    "neutral": "#F65458",
+    "complementary": "#4c57c5",
+    "complementaryAlt": "#FFDE00",
     "buttonPrimary": {
-        "weight": "normal",
-        "case": "none",
-        "letterSpacing": "normal",
-        "borderRadius": 0,
-        "horizontalPadding": 24,
-        "verticalPadding": 12,
-        "shadow": "none"
+        "radius": 0,
+        "case": "none"
     },
     "buttonSecondary": {
-        "weight": "normal",
-        "case": "none",
-        "letterSpacing": "normal",
-        "borderRadius": 0,
-        "borderStyle": "solid",
-        "horizontalPadding": 24,
-        "verticalPadding": 12,
-        "shadow": "none"
+        "radius": 0,
+        "case": "none"
     }
 }

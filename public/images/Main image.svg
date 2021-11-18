@@ -1,0 +1,18 @@
+<svg width="1664" height="851" viewBox="0 0 1664 851" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1664" height="851" fill="#FFDE00"/>
+<rect x="773.41" y="171" width="763.181" height="508" rx="10" fill="#02001D"/>
+<circle cx="808.261" cy="192.856" r="6.49767" fill="#FFDE00"/>
+<circle cx="830.709" cy="192.856" r="6.49767" fill="#FF5151"/>
+<path d="M147 597C147 585.954 155.954 577 167 577H508C519.046 577 528 585.954 528 597V654C528 665.046 519.046 674 508 674H147V597Z" fill="white"/>
+<rect x="79" y="624" width="50" height="50" rx="25" fill="white"/>
+<rect x="176" y="612" width="165" height="9" fill="#02001D"/>
+<rect x="176" y="632" width="237" height="9" fill="#02001D"/>
+<path d="M147 191C147 179.954 155.954 171 167 171H508C519.046 171 528 179.954 528 191V248C528 259.046 519.046 268 508 268H147V191Z" fill="white"/>
+<rect x="79" y="218" width="50" height="50" rx="25" fill="white"/>
+<rect x="176" y="206" width="165" height="9" fill="#02001D"/>
+<rect x="176" y="226" width="237" height="9" fill="#02001D"/>
+<path d="M626.271 412.056C626.271 401.01 617.317 392.056 606.271 392.056H278C266.954 392.056 258 401.01 258 412.056V465.815C258 476.861 266.954 485.815 278 485.815H626.271V412.056Z" fill="white"/>
+<rect width="48.3296" height="48.3296" rx="24.1648" transform="matrix(-1 0 0 1 692 437.486)" fill="white"/>
+<rect width="159.488" height="8.69933" transform="matrix(-1 0 0 1 598.24 425.886)" fill="#02001D"/>
+<rect width="229.082" height="8.69933" transform="matrix(-1 0 0 1 598.24 445.218)" fill="#02001D"/>
+</svg>

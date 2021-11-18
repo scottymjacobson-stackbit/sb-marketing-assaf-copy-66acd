@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'fkdisplay-regular';
+    src: url('/fonts/fkdisplay-regular/fkdisplay-regular-webfont.woff2') format('woff2'),
+         url('/fonts/fkdisplay-regular/fkdisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

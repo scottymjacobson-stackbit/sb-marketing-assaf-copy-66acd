@@ -1,18 +1,18 @@
 ---
-title: Sustainable fishing
+title: Post Title One
 layout: PostLayout
-date: '2021-06-28'
+date: "2021-06-28"
 author: content/data/team/dianne-ameter.json
-excerpt: >-
-  We’re local, seasonal fisherman, supporting fishing restrictions. We fish what
-  the sea has to offer, nothing more, and no cheating.
+excerpt: |-
+  Praesent dapibus justo non efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor pretium id. Sed imperdiet mattis eleifend.
 featuredImage:
   type: ImageBlock
-  url: /images/dude-holding-fish.png
-  altText: Post Image
+  url: "/images/post-1.jpeg"
+  altText: "Post Image"
 bottomSections:
   - type: CtaSection
-    colors: colors-a
+    colors: colors-e
+    backgroundWidth: full
     title: Let's do this
     text: |-
       The Stackbit theme is flexible and scalable to every need. It can manage any layout and any screen.
@@ -25,20 +25,15 @@ bottomSections:
       self:
         height: auto
         width: wide
-        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
-        padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
+        margin: ["mt-0", "mb-0"]
+        padding: ["pt-12", "pb-12"]
         alignItems: center
         justifyContent: center
         flexDirection: row
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-neutral
       title:
         fontWeight: '700'
         fontStyle: normal
         textAlign: left
-        margin: ['mt-0', 'mb-4']
       text:
         textAlign: left
       actions:

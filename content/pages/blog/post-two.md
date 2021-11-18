@@ -1,44 +1,45 @@
 ---
-title: Bi-weekly delivery
+title: Edit without fear of breaking the site
 layout: PostLayout
-date: '2020-05-21'
-author: content/data/team/desmond-eagle.json
+date: '2021-07-01'
+author: content/data/team/hugh-saturation.json
 excerpt: >-
-  Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem
-  semper. Donec sed facilisis nibh.
+  Content and style decisions are designed to give the content editor maximum
+  flexibility - while being confident the site won't break.
 featuredImage:
   type: ImageBlock
-  url: /images/fish-dinner.png
+  url: /images/Post 2.png
   altText: Post Image
 bottomSections:
   - type: CtaSection
-    colors: colors-a
+    colors: colors-e
+    backgroundWidth: full
     title: Let's do this
-    text: |-
-      The Stackbit theme is flexible and scalable to every need. It can manage any layout and any screen.
+    text: >-
+      The Stackbit theme is flexible and scalable to every need. It can manage
+      any layout and any screen.
     actions:
       - type: Button
         label: Get Started
-        url: "https://www.stackbit.com/"
+        url: 'https://www.stackbit.com/'
         style: primary
     styles:
       self:
         height: auto
         width: wide
-        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
-        padding: ["pt-12", "pb-12", "pr-4", "pl-4"]
+        margin:
+          - mt-0
+          - mb-0
+        padding:
+          - pt-12
+          - pb-12
         alignItems: center
         justifyContent: center
         flexDirection: row
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-neutral
       title:
         fontWeight: '700'
         fontStyle: normal
         textAlign: left
-        margin: ['mt-0', 'mb-4']
       text:
         textAlign: left
       actions:
