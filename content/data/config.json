@@ -34,7 +34,7 @@
             {
                 "label": "🕵️‍♂️ We're hiring!",
                 "altText": "Learn more",
-                "url": "/https://jobs.lever.co/stackbit",
+                "url": "https://jobs.lever.co/stackbit",
                 "showIcon": false,
                 "icon": "arrowLeft",
                 "iconPosition": "right",
